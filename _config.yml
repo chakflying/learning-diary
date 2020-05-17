@@ -3,6 +3,6 @@ plugins:
 relative_links:
   enabled: true
   collections: true
-remote_theme:  sujaykundu777/devlopr-jekyll
+remote_theme: poole/lanyon
 include:
   - index.md
