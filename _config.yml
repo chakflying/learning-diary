@@ -6,3 +6,5 @@ relative_links:
 remote_theme:  sujaykundu777/devlopr-jekyll
 include:
   - index.md
+
+theme: jekyll-theme-minimal
