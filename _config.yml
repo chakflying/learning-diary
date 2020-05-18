@@ -2,7 +2,7 @@
 title:               Learning Diary - Nelson Chan
 tagline:             "For when I can't remember everything."
 description:         'A place for me to write about things that I learned.'
-# url:                 http://lanyon.getpoole.com
+url:                 https://chakflying.github.io/learning-diary/
 baseurl:             ''
 paginate:            5
 permalink:           pretty
