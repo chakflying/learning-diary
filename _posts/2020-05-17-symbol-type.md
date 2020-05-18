@@ -1,6 +1,7 @@
-# The Symbol type in Javascript
-
-`2020-05-17`
+---
+layout: post
+title: The Symbol type in Javascript
+---
 
 Discovering many quirks of javascript, symbols being one of them. Functionally, they look like a const string, and can work mostly like a Ruby symbol, which is used to access Object instance variables and hash values.
 
@@ -48,25 +49,3 @@ As a side note, Typescript will complain if you define a symbol with `let` or `v
 Symbols are unique in that they sit somewhere between a string and an object. Like a string in that they don't have any properties, like an object in that every one is unique. They can help with encapsulation of data within features, and prevent confusion with string conversions.
 
 Unfortunately, the syntax `user[id]` seems quite non-standard, and the not very Object-Oriented nature of JS probably limited its use.
-
-# Wiping Free Space
-
-`2020-05-18`
-
-Wiping the free space of a drive is useful when the drive is not encrypted, and you want to make sure deleted files cannot be recovered. Wiping multiple times is mostly useless now, as the original analysis by Peter Gutmann, which found that expensive equipment can sometimes detect the original value of an overwritten bit, was done on obsolete hardware, whereas modern harddisks are made with much higher densities and tighter tolerances. Filling all empty space with 0s will most likely be enough.
-
-It is important to note that this is not a fault-prove method, as there may still be data left in relocated or bad sectors. Physical destruction or full disk encryption would be the preferred method for better security.
-
-Windows:
-
-```
-cipher /w:C:\
-```
-
-Linux:
-
-```bash
-cat /dev/zero > zero.file
-sync
-rm zero.file
-```

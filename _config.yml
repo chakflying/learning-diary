@@ -1,8 +1,22 @@
+# Setup
+title:               Learning Diary - Nelson Chan
+tagline:             "For when I can't remember everything."
+description:         'A place for me to write about things that I learned.'
+url:                 http://lanyon.getpoole.com
+baseurl:             ''
+paginate:            5
+permalink:           pretty
+
+# About/contact
+author:
+  name:              Nelson Chan
+  url:               https://nelc.cc
+  email:             me@nelc.cc
+
+# Gems
 plugins:
-  - jekyll-relative-links
-relative_links:
-  enabled: true
-  collections: true
-remote_theme: poole/lanyon
-include:
-  - index.md
+  - jekyll-paginate
+
+# Custom vars
+version:             1.1.0
+google_analytics_id: #UA-XXXX-Y
