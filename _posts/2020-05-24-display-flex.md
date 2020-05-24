@@ -11,7 +11,7 @@ A container, as the name suggest, is a base for other things to be aligned / ord
 
 ### Align
 
-But usually, we don't put enough elements to fill the entire flexbox, hence we need to specify how to align the elements inside. For the container, we can use `justify-content` to it how to align elements horizontally, and `align-items` to align elements vertically. This graphic by `css-tricks` is very clear:
+But usually, we don't put enough elements to fill the entire flexbox, hence we need to specify how to align the elements inside. For the container, we can use `justify-content` to it how to align elements horizontally, and `align-items` to align elements vertically. This illustration by `css-tricks` is very clear:
 <p style="text-align: center;"><i>justify-content</i></p>
 
 ![justify-content](https://css-tricks.com/wp-content/uploads/2018/10/justify-content.svg)
