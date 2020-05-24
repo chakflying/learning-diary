@@ -31,7 +31,7 @@ Subsequently, all the sRGB, Adobe RGB, Rec. 709 color spaces can be shown as som
 
 ### Gamma
 
-But the story is not over. We still haven't solved the intensity problem, because the plot only show colors at a fixed intensity. Here's where our eyes come in again. We are way more sensitive to changes in dim light than in bright light. I guess it has something to do with the cones and rods getting saturated and cannot produce a stronger neural signal. When plotted it would look a power curve, which is exactly what then chose. When we say the standard gamma is around 2.2, we mean that we are mapping the linear intensities to a curve of power 2.2 to make it more linear when perceived.
+But the story is not over. We still haven't solved the intensity problem, because the plot only show colors at a fixed intensity. Here's where our eyes come in again. We are way more sensitive to changes in dim light than in bright light. I guess it has something to do with the cones and rods getting saturated and cannot produce a stronger neural signal. When plotted it would look a power curve, which is exactly what they chose. When we say the standard gamma is around 2.2, we mean that we are mapping the linear intensities to a curve of power 2.2 to make it more linear when perceived.
 
 ![Gamma curve]({{ '/public/images/gamma3.png' | absolute_url }})
 
