@@ -9,7 +9,7 @@ Years ago I found this [post](http://jamie-wong.com/post/color/) about human col
 
 We often say that red, green and blue are the three primary colors, and our eyes also function in a similar way. Unfortunately, the cones in our eyes does not have a perfect distribution of sensitivities to detect the three colors.
 
-![Human cone sensitivities](/public/images/cones.png)
+![Human cone sensitivities]({{ '/public/images/cones.png' | absolute_url }})
 
 As shown in the diagram, we use SML to label the 3 types of cones in our eyes, and the M & L cones have significant overlap. In theory, we can use (S, M, L) to define any color on the horizontal line, called spectral colors, that we can perceive. This is called the LMS color space.
 
